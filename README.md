@@ -29,9 +29,11 @@ from the palette when the theme is applied.
 ## Optional Desert Rhythm widget
 
 The companion [Desert Rhythm plugin](https://github.com/majesticio/omarchy-desert-rhythm-plugin)
-adds a time-aware desert sun to the bar. It cycles through dawn, high-desert
-day, golden hour, and night; it also provides shortcuts for wallpaper cycling,
-night light, and weather status.
+adds live weather and a solar/lunar desert horizon to the bar. Its panel follows
+real sunrise and sunset through blue hour, desert dawn, high-desert day, golden
+hour, adobe afterglow, and desert night, then positions the moon using moonrise
+and moonset data. Left-click opens the forecast, middle-click refreshes, and
+right-click toggles night light.
 
 ```bash
 omarchy plugin add https://github.com/majesticio/omarchy-desert-rhythm-plugin --enable --yes
