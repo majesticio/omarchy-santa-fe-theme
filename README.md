@@ -18,12 +18,24 @@ GitHub URL.
 ## Included
 
 - A complete semantic and ANSI palette in `colors.toml`
+- Santa Fe shell surfaces, gradients, controls, menus, and lock styling
 - `Yaru-wartybrown-dark` icon integration
 - An original 16:9 high-desert wallpaper
 - A 16:9 theme preview
 
 Omarchy generates terminal, shell, Hyprland, editor, and application colors
 from the palette when the theme is applied.
+
+## Optional Desert Rhythm widget
+
+The companion [Desert Rhythm plugin](https://github.com/majesticio/omarchy-desert-rhythm-plugin)
+adds a time-aware desert sun to the bar. It cycles through dawn, high-desert
+day, golden hour, and night; it also provides shortcuts for wallpaper cycling,
+night light, and weather status.
+
+```bash
+omarchy plugin add https://github.com/majesticio/omarchy-desert-rhythm-plugin --enable --yes
+```
 
 ## Palette
 

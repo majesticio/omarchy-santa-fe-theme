@@ -1,0 +1,112 @@
+# Santa Fe shell treatment. Missing roles intentionally fall back to the
+# foundational colors in colors.toml so this remains forward-compatible.
+
+[bar]
+background       = "#151820"
+background-alpha = 0.88
+text             = "#E7D7C6"
+active           = "#D6674F"
+scale-with-font  = true
+size-horizontal  = 28
+size-vertical    = 30
+
+[hyprland]
+active-border            = "rgba(55AAA6ee) rgba(C8784Fee) 45deg"
+active-border-foreground = "rgba(55AAA6dd) rgba(E7D7C6cc) 45deg"
+
+[controls]
+normal-color        = "#E7D7C6"
+normal-fill-alpha   = 0.04
+normal-border       = "#8F8378"
+normal-border-width = 1
+normal-border-alpha = 0.32
+
+hover-cursor-color        = "#F4E5D3"
+hover-cursor-fill-alpha   = 0.09
+hover-cursor-border       = "#55AAA6"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.65
+
+focus-color        = "#F4E5D3"
+focus-fill-alpha   = 0.10
+focus-border       = "rgba(55AAA6ee) rgba(C8784Fee) 45deg"
+focus-border-width = "1 1 1 3"
+focus-border-alpha = 0.9
+
+selected-color        = "#F4E5D3"
+selected-fill-alpha   = 0.14
+selected-border       = "#55AAA6"
+selected-border-width = "1 1 1 4"
+selected-border-alpha = 1.0
+
+pressed-fill-alpha   = 0.22
+selection-fill-alpha = 0.32
+
+[spacing]
+scale           = 1.0
+scale-with-font = true
+
+[popups]
+background       = "#151820"
+background-alpha = 0.96
+text             = "#E7D7C6"
+border           = "rgba(55AAA6ee) rgba(C8784Fee) 45deg"
+border-alpha     = 1.0
+border-width     = 2
+
+[tooltip]
+background       = "#0F1117"
+background-alpha = 0.97
+text             = "#E7D7C6"
+border           = "#55AAA6"
+border-alpha     = 0.75
+
+[notifications]
+background       = "#151820"
+background-alpha = 0.96
+text             = "#E7D7C6"
+border           = "rgba(55AAA6ee) rgba(C8784Fee) 45deg"
+border-alpha     = 1.0
+border-width     = "1 1 1 4"
+countdown        = "#D7A84D"
+
+[launcher]
+background                = "#151820"
+background-alpha          = 0.95
+text                      = "#E7D7C6"
+border                    = "rgba(55AAA6ee) rgba(C8784Fee) 45deg"
+border-alpha              = 1.0
+scrim                     = "#0F1117"
+scrim-alpha               = 0.58
+selected-background       = "#55AAA6"
+selected-background-alpha = 0.13
+selected-text             = "#72C2BD"
+selected-border           = "#C8784F"
+selected-border-alpha     = 0.75
+
+[menu]
+background                = "#151820"
+background-alpha          = 0.97
+text                      = "#E7D7C6"
+border                    = "rgba(55AAA6ee) rgba(C8784Fee) 45deg"
+border-alpha              = 1.0
+scrim                     = "#0F1117"
+scrim-alpha               = 0.55
+selected-background       = "#55AAA6"
+selected-background-alpha = 0.12
+selected-text             = "#72C2BD"
+selected-border           = "#C8784F"
+selected-border-alpha     = 0.7
+
+[lock]
+background       = "#151820"
+background-alpha = 0.84
+text             = "#E7D7C6"
+placeholder      = "#8F8378"
+text-error       = "#D6674F"
+border           = "rgba(55AAA6cc) rgba(C8784Faa) 45deg"
+border-active    = "rgba(55AAA6ee) rgba(C8784Fee) 45deg"
+border-error     = "#D6674F"
+border-alpha     = 1.0
+selection        = "#55AAA6"
+selection-alpha  = 0.45
