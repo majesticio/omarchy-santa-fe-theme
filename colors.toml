@@ -1,0 +1,34 @@
+mode = "dark"
+
+# Turquoise jewelry and painted doors against a high-desert twilight.
+accent = "#55AAA6"
+selection = "#3B5558"
+muted = "#716C65"
+
+# Deep blue-charcoal shadows keep the warm foreground comfortable to read.
+background = "#1C2026"
+dark_background = "#151820"
+darker_background = "#0F1117"
+lighter_background = "#292E35"
+
+foreground = "#E7D7C6"
+dark_foreground = "#8F8378"
+light_foreground = "#CBBBAA"
+bright_foreground = "#F4E5D3"
+
+# Chili, chamisa, adobe, sage, turquoise, twilight, and prickly pear.
+red = "#D6674F"
+yellow = "#D7A84D"
+orange = "#C8784F"
+green = "#88A870"
+cyan = "#55AAA6"
+blue = "#718FC6"
+magenta = "#B77D96"
+brown = "#8C6048"
+
+bright_red = "#E47B62"
+bright_yellow = "#E5BB62"
+bright_green = "#9DBD83"
+bright_cyan = "#72C2BD"
+bright_blue = "#8AA8DB"
+bright_magenta = "#CC93AA"
