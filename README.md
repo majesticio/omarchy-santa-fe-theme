@@ -36,7 +36,7 @@ and moonset data. Left-click opens the forecast, middle-click refreshes, and
 right-click toggles night light.
 
 ```bash
-omarchy plugin add https://github.com/majesticio/omarchy-desert-rhythm-plugin --enable --yes
+omarchy plugin add https://github.com/majesticio/omarchy-desert-rhythm-plugin --enable
 ```
 
 ## Palette
